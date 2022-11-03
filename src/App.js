@@ -4,6 +4,8 @@ import "./App.css";
 
 // import from component/Header.jsx
 import Header from "./components/Header";
+// import from component/Sign.jsx
+import Sign from "./components/Sign";
 
 // Pre entered content
 // function App() {
@@ -35,6 +37,7 @@ const App = () => {
 				<img src={logo} className="App-logo" alt="logo" />
 				<h3> My second header </h3>
 				<p> My Paragraph </p>
+				<Sign />
 			</header>
 		</div>
 	);
