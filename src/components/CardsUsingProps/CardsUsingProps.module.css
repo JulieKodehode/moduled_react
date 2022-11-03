@@ -1,0 +1,11 @@
+/* Takes presidency over a global-css */
+
+.Wrapper {
+	background-color: brown;
+}
+
+.Alternate {
+	background-color: blue;
+}
+
+/* Making css for classes for specific components to make them individually stand out instead of using a common file for everything you can specificity style one component */

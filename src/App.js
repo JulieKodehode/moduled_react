@@ -2,10 +2,17 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-// import from component/Header.jsx
+// Import from component/Header.jsx
 import Header from "./components/Header";
-// import from component/Sign.jsx
+
+// Import from component/Sign.jsx
 import Sign from "./components/Sign";
+
+// Import from ./components/CarsUsingProps.jsx
+import CardsUsingProps from "./components/CardsUsingProps/CardsUsingProps.jsx";
+
+// Import global css
+import "./index.css";
 
 // Pre entered content
 // function App() {
@@ -25,18 +32,31 @@ import Sign from "./components/Sign";
 // }
 
 // Only return one parent, but as many children as you want
-// Most basic used component from app.js
 // The Header is a custom element. And we can add a title property(props)
 const App = () => {
 	return (
-		<div className="App-header">
+		<div className="App">
 			<header className="App-header">
+				{/* Using the Header Component */}
 				<Header />
+
+				{/* Two other ways of adding this title */}
 				{/* <Header title="MyTitle" /> */}
 				{/* <h1> My Title </h1> */}
+
+				{/* Photo taken from above */}
 				<img src={logo} className="App-logo" alt="logo" />
-				<h3> My second header </h3>
+
+				{/* Adding CSS into a certain tag with global css from src/App.css */}
+				<h3 class="another-css-class-name"> My second header </h3>
+
+				{/* Not yet modified */}
 				<p> My Paragraph </p>
+
+				{/* Separate jsx and css from components/CardsUsingProps */}
+				<CardsUsingProps title="Some title" paragraph="Some paragraph" />
+
+				{/* Using the Sign Component */}
 				<Sign />
 			</header>
 		</div>
