@@ -2,9 +2,9 @@
 
 [main](https://github.com/JulieKodehode/first-lesson) - the main unedited version of create-react-app
 
-[novemberFirst](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberFirst) - learning what React is, basic how it is used, and how to set it up.
+[components_properties](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberFirst) - learning what React is, basic how it is used, and how to set it up. Used to be novemberFirst
 
-[novemberThird](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberThird) - making component's, import and export, component styling.
+[components_styling](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberThird) - making component's, import and export, component styling. Used to be novemberThird
 
 <!-- [Name](link) - description -->
 
