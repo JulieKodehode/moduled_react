@@ -1,6 +1,8 @@
 # Branches:
 
-[main](https://github.com/JulieKodehode/first-lesson) - the main unedited version of create-react-app
+[main](https://github.com/JulieKodehode/first-lesson) - combination.
+
+[octoberThirthyFirst](https://github.com/JulieKodehode/first-lesson/tree/feat/octoberThirthyFirst) - the main unedited version of create-react-app
 
 [novemberFirst](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberFirst) - learning what React is, basic how it is used, and how to set it up.
 
