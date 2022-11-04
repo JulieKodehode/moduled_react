@@ -1,11 +1,3 @@
-# Branches:
-
-[main](https://github.com/JulieKodehode/first-lesson) - the main unedited version of create-react-app
-[novemberFirst](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberFirst) - learning what React is, basic how it is used, and how to set it up.
-[novemberThird](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberThird) - making component's, import and export, component styling.
-
-<!-- [Name](link) - description -->
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
