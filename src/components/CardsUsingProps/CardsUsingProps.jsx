@@ -27,6 +27,6 @@ const CardsUsingProps = (props) => {
 
 export default CardsUsingProps;
 
-// id="MyFirstCard" cuz
+// id="MyFirstCard" cuz?
 // className={} work similarly to class="" but we use cN={} because its react js
 // style={{}} is inline css
