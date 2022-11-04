@@ -1,4 +1,4 @@
-## Branches:
+# Branches:
 
 [main](https://github.com/JulieKodehode/first-lesson) - the main unedited version of create-react-app
 
@@ -8,7 +8,7 @@
 
 <!-- [Name](link) - description -->
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
