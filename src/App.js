@@ -9,7 +9,7 @@ import Header from "./components/Header";
 import Sign from "./components/Sign";
 
 // Import from component/InfoCard/InfoCard.jsx
-import InfoCard from "./components/InfoCard/InfoCards";
+import InfoCard from "./components/InfoCard/InfoCards.jsx";
 
 // Import from ./components/CarsUsingProps.jsx
 import CardsUsingProps from "./components/CardsUsingProps/CardsUsingProps.jsx";
