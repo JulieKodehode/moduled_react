@@ -6,9 +6,6 @@
 
 [components_styling](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberThird) - making component's, import and export, component styling. Used to be novemberThird
 
-<!-- [Name](link) - description -->
-
-
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
