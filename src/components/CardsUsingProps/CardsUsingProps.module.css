@@ -1,5 +1,5 @@
-/* Takes presidency over a global-css */
-/* module.css to make it into a style? */
+/* Takes presidency over a global-css. Because when I place it to target a specific element it will overrun the global and give it this css instead. */
+/* module.css to make it into a style */
 
 .Wrapper {
 	background-color: brown;
@@ -8,5 +8,3 @@
 .Alternate {
 	background-color: blue;
 }
-
-/* Making css for classes for specific components to make them individually stand out instead of using a common file for everything you can specificity style one component */

@@ -1,4 +1,4 @@
-// jsx provide syntax highlight and auto completion
+// jsx provide syntax highlight and auto completion, so instead of regular js its more "helping"
 
 // anon arrow function
 const Header = (props) => {

@@ -1,4 +1,4 @@
-// to use styles we need module.css
+// to use styles we need module.css (component-style (3rd party))
 // import styles from "./CardsUsingProps.module.css";
 
 // // Importing from StyledArticle/StyledArticle.jsx
