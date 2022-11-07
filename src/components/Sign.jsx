@@ -3,3 +3,5 @@ const Sign = () => {
 };
 
 export default Sign;
+
+// Experiment to test export and import (working successfully)
