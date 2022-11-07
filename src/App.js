@@ -1,5 +1,5 @@
-// Pre entered content
-// import logo from "./logo.svg";
+// React spinning logo
+import logo from "./logo.svg";
 
 // Global css
 import "./App.css";
