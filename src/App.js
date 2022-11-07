@@ -8,6 +8,9 @@ import Header from "./components/Header";
 // Import from component/Sign.jsx
 import Sign from "./components/Sign";
 
+// Import from component/InfoCard/InfoCard.jsx
+import InfoCard from "./components/InfoCard/InfoCards.jsx";
+
 // Import from ./components/CarsUsingProps.jsx
 import CardsUsingProps from "./components/CardsUsingProps/CardsUsingProps.jsx";
 
@@ -52,6 +55,9 @@ const App = () => {
 
 				{/* Not yet modified */}
 				<p> My Paragraph </p>
+
+				{/* Practicing import export av components */}
+				<InfoCard />
 
 				{/* Separate jsx and css from components/CardsUsingProps */}
 				<CardsUsingProps title="Some title" paragraph="Some paragraph" />

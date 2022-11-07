@@ -1,27 +1,33 @@
 // to use styles we need module.css
-import styles from "./CardsUsingProps.module.css";
+// import styles from "./CardsUsingProps.module.css";
 
-// Importing the library
-// import styled from "./styledArticle/styledArticle.jsx";
+// // Importing from StyledArticle/StyledArticle.jsx
+import StyledArticle from "./StyledArticle/StyledArticle.jsx";
 
 const CardsUsingProps = (props) => {
 	const { title, paragraph } = props;
 
-	// boolean to check for alternate version
-	const alternateVersion = true;
+	// boolean to check for alternate version with the conditional operator
+	// const alternateVersion = false;
 
 	return (
 		// <article className="Wrapper">
 		// switching article to styledArticle
-		<styledArticle
+		<StyledArticle
 			id="MyFirstCard"
-			style={{ color: "white" }}
-			// Using a if/else to see what to run(?)
-			className={alternateVersion ? styles.Alternate : styles.Wrapper}>
+			// Inline styling: camel case instead of - between words, and using `` around numbers.
+			// style={{ color: "white", fontSize: `10px` }}
+
+			// Using module.css to make a specific style for ex h2 and placing it as an inline on the specific h2 (Have not made this module)
+			// className={styles.Wrapper}
+
+			// Using module.css. And using a conditional operator to see what to run
+			// className={alternateVersion ? styles.Alternate : styles.Wrapper}
+		>
 			<a href="https://bt.no">BT</a>
 			<h3>{title}</h3>
 			<p>{paragraph}</p>
-		</styledArticle>
+		</StyledArticle>
 	);
 };
 
