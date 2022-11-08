@@ -1,10 +1,12 @@
 const Contact = () => {
 	return (
-		<div>
+		<main>
 			<h1>Contact</h1>
 			<p>ContactContactContactContact</p>
-		</div>
+		</main>
 	);
 };
 
 export default Contact;
+
+// Changed from div to main

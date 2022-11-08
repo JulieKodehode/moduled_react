@@ -3,6 +3,7 @@ import logo from "./logo.svg";
 
 // Global css
 import "./App.css";
+import "./index.css";
 
 // Import from component/Header.jsx
 import Header from "./components/Header";
@@ -16,8 +17,8 @@ import InfoCard from "./components/InfoCard/InfoCards.jsx";
 // Import from ./components/CarsUsingProps.jsx
 import CardsUsingProps from "./components/CardsUsingProps/CardsUsingProps.jsx";
 
-// Import global css
-import "./index.css";
+// Import react-route-dom
+import { Outlet, Link } from "react-router-dom";
 
 // Pre entered content
 // function App() {
@@ -44,6 +45,22 @@ const App = () => {
 	return (
 		<div className="App">
 			<header className="App-header">
+				{/* Adding a navBar to the app.js (previously had this as a stand alone NavBar.jsx) */}
+				<nav>
+					<ul>
+						<li>
+							<Link to="/Home">Home</Link>
+						</li>
+						<li>
+							<Link to="/About">About</Link>
+						</li>
+						<li>
+							<Link to="/Contact">Contact</Link>
+						</li>
+						{/* The / in Link to is nesting the Home, About and Contact inside App(?) */}
+					</ul>
+				</nav>
+				<Outlet />
 				{/* Using the Header Component */}
 				<Header />
 

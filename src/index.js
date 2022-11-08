@@ -1,8 +1,9 @@
 // Library
 import React from "react";
 import ReactDOM from "react-dom/client";
-// Set HashRouter as Router (SEARCH IT UP, hashrouter #, so its already defined but misses a link before click)
-import { HashRouter as Routes, Route } from "react-router-dom";
+
+// Set HashRouter as Router (SEARCH IT UP, hashrouter (#router), so its already defined but misses a link before click)
+import { HashRouter as BrowserRouter, Routes, Route } from "react-router-dom";
 
 //CSS
 import "./index.css";
@@ -14,23 +15,37 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 // Pages from pages
-import Landing from "./pages/Landing";
-import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Landing from "./routes/Landing";
+import About from "./routes/About";
+import Contact from "./routes/Contact";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>
 		{/* App.jsx is now a route? */}
 		{/* Something ain't working */}
-		<Routes>
-			<Route path="/Home" element={<Landing />} />
-			<Route path="/About" element={<About />} />
-			<Route path="/Contact" element={<Contact />} />
-		</Routes>
+		<BrowserRouter>
+			<Routes>
+				<Route path="/" element={<App />} />
+				<Route path="Home" element={<Landing />} />
+				{/* Need to make a pathId? Need to make an route index? 09.45*/}
+				<Route path="About" element={<About />} />
+				<Route path="Contact" element={<Contact />} />
+				<Route
+					path="*"
+					element={
+						<main>
+							<p>There is nothing here</p>
+						</main>
+					}
+					// * will match when nothing else matches
+				/>
+			</Routes>
+		</BrowserRouter>
 
 		{/* The app.js and all its children*/}
-		<App />
+		{/* <App /> */}
+		{/* No longer necessary when connected App to a Route(?) */}
 
 		{/* Do you work? Somewhat yes but not really..  */}
 		{/* <NavBar /> */}
