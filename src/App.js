@@ -20,6 +20,10 @@ import CardsUsingProps from "./components/CardsUsingProps/CardsUsingProps.jsx";
 // Import react-route-dom
 import { Outlet, Link } from "react-router-dom";
 
+// . terminal directory paths (hey look in this folder), / intellisense suggestions (hey i want something from inside this folder, the more .. the longer you backtrack into folders (first-lesson > src > component > Main needs .../ or can be ./src/component/Main/Main.jsx)
+// Should be enough with import Name to get auto-completion
+import Main from "./components/Main/Main";
+
 // Pre entered content
 // function App() {
 // 	return (
@@ -74,7 +78,7 @@ const App = () => {
 				{/* Adding CSS into a certain tag with global css from src/App.css */}
 				<h3 class="another-css-class-name"> My second header </h3>
 
-				{/* Not yet modified */}
+				{/* Not yet modified, hardcode code */}
 				<p> My Paragraph </p>
 
 				{/* Practicing import export av components, with an inline style in InfoCard.jsx to experiment */}
@@ -83,6 +87,9 @@ const App = () => {
 				{/* Separate jsx and css from components/CardsUsingProps */}
 				{/* Using props title and paragraph to not write lines of code, see CardsUsingProps to see props inclosed in <tags> */}
 				<CardsUsingProps title="Some title" paragraph="Some paragraph" />
+
+				{/* Import export practice with data instead of hardcode */}
+				<Main />
 
 				{/* Using the Sign Component */}
 				<Sign />
