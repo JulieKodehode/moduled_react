@@ -14,7 +14,7 @@ import NavBar from "./routes/NavBar";
 // import { NavBar, App } from "./App.js";
 
 // Funnies
-import reportWebVitals from "./reportWebVitals";
+import reportWebVitals from "./tests/reportWebVitals";
 
 // Pages from pages
 // import Landing from "./routes/Landing";

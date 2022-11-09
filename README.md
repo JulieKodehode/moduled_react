@@ -2,13 +2,15 @@
 
 [main](https://github.com/JulieKodehode/first-lesson) - combination.
 
-[octoberThirthyFirst](https://github.com/JulieKodehode/first-lesson/tree/feat/octoberThirthyFirst) - the main unedited version of create-react-app
+[octoberThirtyFirst](https://github.com/JulieKodehode/first-lesson/tree/feat/octoberThirtyFirst) - the main unedited version of create-react-app
 
-[novemberFirst](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberFirst) - learning what React is, basic how it is used and how to set it up.
+[novemberFirst](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberFirst) - learning what React is, basic how it is used and how to set it up
 
-[novemberThird](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberThird) - making component's, import and export, component styling.
+[novemberThird](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberThird) - making component's, import and export, component styling
 
-[novemberSeventh](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberSeventh) - react-route-dom, making routes and route links, creating a navbar for routing (still under construction)
+[novemberSeventh](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberSeventh) - react-route-dom, making routes and route links, creating a navbar for routing
+
+[novemberEight](https://github.com/JulieKodehode/moduleD_react/tree/feat/novemberEight) - learning to import static data, making a data folder for data to be exported and imported
 
 ## Getting Started with Create React App
 
