@@ -1,4 +1,6 @@
 // Moved from main/main.jsx to data/data.jsx
+
+// Static dataa
 const MainContent = {
 	title: "Main component title",
 	paragraph: "Main title | eltit niaM",
