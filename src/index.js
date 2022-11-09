@@ -11,7 +11,7 @@ import "./index.css";
 import App from "./App";
 
 // Funnies
-import reportWebVitals from "./reportWebVitals";
+import reportWebVitals from "./test/reportWebVitals";
 
 // Navbar from routes
 import NavBar from "./routes/NavBar";
