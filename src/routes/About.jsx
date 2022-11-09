@@ -1,10 +1,12 @@
 const About = () => {
 	return (
-		<div>
+		<main>
 			<h1>About</h1>
 			<p>AboutAboutAboutAboutAbout</p>
-		</div>
+		</main>
 	);
 };
 
 export default About;
+
+// Changed from div to main

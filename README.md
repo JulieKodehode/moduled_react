@@ -8,6 +8,8 @@
 
 [novemberThird](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberThird) - making component's, import and export, component styling.
 
+[novemberSeventh](https://github.com/JulieKodehode/first-lesson/tree/feat/novemberSeventh) - react-route-dom, making routes and route links, creating a navbar for routing (still under construction)
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

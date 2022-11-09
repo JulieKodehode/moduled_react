@@ -2,7 +2,7 @@
 // import styles from "./CardsUsingProps.module.css";
 
 // // Importing from StyledArticle/StyledArticle.jsx
-import StyledArticle from "./StyledArticle/StyledArticle.jsx";
+import StyledArticle from "./StyledArticle/styledArticle";
 
 const CardsUsingProps = (props) => {
 	const { title, paragraph } = props;
