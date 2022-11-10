@@ -19,6 +19,8 @@ import InfoCard from "../components/InfoCard/InfoCards.jsx";
 // Import from ./components/CarsUsingProps.jsx
 import CardsUsingProps from "../components/CardsUsingProps/CardsUsingProps.jsx";
 
+import Counter from "../components/Counter";
+
 // Only return one parent(div in this case), but as many children as you want. The div is sort of like body in html(?) and then the header is the section to be displayed on page (?)
 // Header is a custom component. And we can add a title property(props) to reduce open code(?) and display properties instead of lines of text.
 // READ more on properties
@@ -48,6 +50,9 @@ const Home = () => {
 				{/* Separate jsx and css from components/CardsUsingProps */}
 				{/* Using props title and paragraph to not write lines of code, see CardsUsingProps to see props inclosed in <tags> */}
 				<CardsUsingProps title="Some title" paragraph="Some paragraph" />
+
+				{/* State */}
+				<Counter />
 
 				{/* Using the Sign Component */}
 				<Sign />
