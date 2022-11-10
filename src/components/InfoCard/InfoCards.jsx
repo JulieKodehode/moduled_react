@@ -8,3 +8,5 @@ const InfoCard = () => {
 };
 
 export default InfoCard;
+
+// article with inline styling, export default InfoCard (to be displayed in app.js)

@@ -1,9 +1,9 @@
 // Import library to get the styled
 import styled from "styled-components";
 
+
 // Library: if its reusable you can put them in own folder, if its just one comp then you can define them in the same comp to keep it local
 // Unsure where you went? Assigned a value but never used?
-
 const StyledArticle = styled.article`
 	margin: 1em;
 
