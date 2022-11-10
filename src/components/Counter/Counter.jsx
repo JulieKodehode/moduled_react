@@ -30,7 +30,8 @@ const Counter = () => {
 	return (
 		// React.Fragment is the "div", signaling we are using React.Fragment we are telling the browser we only want to return the one thing so we want a fragment
 		// Div is not necessary but quick styling for easier to look for on a long page. Find a way to do this differently.
-		<div style={{ backgroundColor: "green" }}>
+		// Needed to add a margin because for some reason it didnt give me space around.
+		<div style={{ backgroundColor: "green", margin: "20px" }}>
 			<React.Fragment>
 				<h1>{count}</h1>
 				<button
