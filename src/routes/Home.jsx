@@ -19,6 +19,9 @@ import InfoCard from "../components/InfoCard/InfoCards.jsx";
 // Import from ./components/CarsUsingProps.jsx
 import CardsUsingProps from "../components/CardsUsingProps/CardsUsingProps.jsx";
 
+// Import from ./components/main.jsx
+import Main from "../components/Main";
+
 import Counter from "../components/Counter/Counter";
 
 // Only return one parent(div in this case), but as many children as you want. The div is sort of like body in html(?) and then the header is the section to be displayed on page (?)
@@ -50,6 +53,9 @@ const Home = () => {
 				{/* Separate jsx and css from components/CardsUsingProps */}
 				{/* Using props title and paragraph to not write lines of code, see CardsUsingProps to see props inclosed in <tags> */}
 				<CardsUsingProps title="Some title" paragraph="Some paragraph" />
+
+				{/* Using data */}
+				<Main />
 
 				{/* State */}
 				<Counter />
