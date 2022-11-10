@@ -2,7 +2,7 @@
 // import styles from "./CardsUsingProps.module.css";
 
 // // Importing from StyledArticle/StyledArticle.jsx
-import StyledArticle from "./StyledArticle/StyledArticle";
+import ArticleStyle from "./ArticleStyle/ArticleStyle.jsx";
 
 const CardsUsingProps = (props) => {
 	const { title, paragraph } = props;
@@ -13,7 +13,7 @@ const CardsUsingProps = (props) => {
 	return (
 		// <article className="Wrapper">
 		// switching article to styledArticle
-		<StyledArticle
+		<ArticleStyle
 			id="MyFirstCard"
 			// Inline styling: camel case instead of - between words, and using `` around numbers.
 			// style={{ color: "white", fontSize: `10px` }}
@@ -27,7 +27,7 @@ const CardsUsingProps = (props) => {
 			<a href="https://bt.no">BT</a>
 			<h3>{title}</h3>
 			<p>{paragraph}</p>
-		</StyledArticle>
+		</ArticleStyle>
 	);
 };
 
