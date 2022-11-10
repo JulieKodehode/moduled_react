@@ -19,7 +19,7 @@ import InfoCard from "../components/InfoCard/InfoCards.jsx";
 // Import from ./components/CarsUsingProps.jsx
 import CardsUsingProps from "../components/CardsUsingProps/CardsUsingProps.jsx";
 
-import Counter from "../components/Counter";
+import Counter from "../components/Counter/Counter";
 
 // Only return one parent(div in this case), but as many children as you want. The div is sort of like body in html(?) and then the header is the section to be displayed on page (?)
 // Header is a custom component. And we can add a title property(props) to reduce open code(?) and display properties instead of lines of text.
