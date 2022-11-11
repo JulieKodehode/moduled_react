@@ -5,7 +5,7 @@ const Child = () => {
 
 	// Everything inside Child will rerun every time the state changes.
 
-	console.log("We render");
+	// console.log("We render");
 	return <p>I am a child of the input field</p>;
 };
 
