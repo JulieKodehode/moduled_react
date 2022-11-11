@@ -84,7 +84,7 @@ const TextInput = (props) => {
 				<li>{fetchedData && fetchedData[0].fact}</li>
 			</ul>
 
-			<Child />
+			<Child data={data} />
 		</div>
 	);
 };
