@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import TextInput from "./TextInput";
 
 // The function is what react is looking for to compare and update using states, so anything above or under the function it self wont be re-run.
-console.log("I will only run once");
+// console.log("I will only run once");
 // You could declare a variable outside and call it inside the function
 
 const Counter = () => {

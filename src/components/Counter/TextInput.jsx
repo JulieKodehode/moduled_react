@@ -38,7 +38,7 @@ const TextInput = (props) => {
 		() => {
 			// Setup
 
-			console.log("This effect was run");
+			// console.log("This effect was run");
 
 			// Calling the function from above, will only run when the content of the array changes since its outside
 			fetchData(setFetchedData);
