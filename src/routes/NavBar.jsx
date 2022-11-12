@@ -19,7 +19,7 @@ const NavBar = () => {
 						<NavLink to="/Counter">Counter</NavLink>
 					</li>
 					<li className={styles.Li}>
-						<NavLink to="/Contact">Contact</NavLink>
+						<NavLink to="/CatFact">CatFact</NavLink>
 					</li>
 					{/* The / in Link to is nesting the Home, About and Contact inside App(?) */}
 				</ul>
