@@ -13,10 +13,10 @@ const NavBar = () => {
 			<nav>
 				<ul className={styles.Ul}>
 					<li className={styles.Li}>
-						<NavLink to="/">Home</NavLink>
+						<NavLink to="/Home">Home</NavLink>
 					</li>
 					<li className={styles.Li}>
-						<NavLink to="/About">About</NavLink>
+						<NavLink to="/Counter">Counter</NavLink>
 					</li>
 					<li className={styles.Li}>
 						<NavLink to="/Contact">Contact</NavLink>

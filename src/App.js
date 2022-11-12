@@ -3,7 +3,9 @@
 // Import react-route-dom
 import { Routes, Route } from "react-router-dom";
 import Home from "./routes/Home";
-import About from "./routes/About";
+
+// import About from "./routes/About";
+import Counter from "./routes/Counter";
 import Contact from "./routes/Contact";
 
 const App = () => {
@@ -11,7 +13,7 @@ const App = () => {
 		<Routes>
 			<Route path="/" element={<Home />} />
 			<Route path="Home" element={<Home />} />
-			<Route path="About" element={<About />} />
+			<Route path="Counter" element={<Counter />} />
 			<Route path="Contact" element={<Contact />} />
 			<Route
 				path="*"

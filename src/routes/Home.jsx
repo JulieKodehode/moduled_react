@@ -4,8 +4,8 @@
 import logo from "../logo.svg";
 
 // Global css
-import "../App.css";
-import "../index.css";
+// import "../App.css";
+// import "../index.css";
 
 // Import from component/Header.jsx
 import Header from "../components/Header";
@@ -22,8 +22,8 @@ import CardsUsingProps from "../components/CardsUsingProps/CardsUsingProps.jsx";
 // Import from ./components/main.jsx
 import Main from "../components/Main";
 
-//
-import Counter from "../components/Counter/Counter";
+// Import from ./Counter/Counter
+// import Counter from "./Counter/Counter";
 
 import CatFacts from "../components/CatFacts/CatFact";
 
@@ -61,7 +61,7 @@ const Home = () => {
 				<Main />
 
 				{/* useState */}
-				<Counter />
+				{/* <Counter /> */}
 
 				{/* useEffect */}
 				<CatFacts />

@@ -1,7 +1,11 @@
 import React, { useState } from "react";
 
+// Global css
+import "../App.css";
+// import "../index.css";
+
 // TextInput is Counter's child
-import TextInput from "./TextInput";
+import TextInput from "./Counter/TextInput";
 
 // The function is what react is looking for to compare and update using states, so anything above or under the function it self wont be re-run.
 // console.log("I will only run once");
@@ -43,25 +47,28 @@ const Counter = () => {
 		// React.Fragment is the "div", signaling we are using React.Fragment we are telling the browser we only want to return the one thing so we want a fragment
 		// Div is not necessary but quick styling for easier to look for on a long page. Find a way to do this differently.
 		// Needed to add a margin because for some reason it didnt give me space around.
-		<div style={{ backgroundColor: "green", margin: "20px" }}>
-			<React.Fragment>
-				<h1>{count}</h1>
-				<button
-					onClick={() => {
-						increment();
-					}}>
-					Increment
-				</button>
+		<div className="App | App-header">
+			{/* Div className is background and center */}
+			<div style={{ backgroundColor: "green", margin: "20px" }}>
+				<React.Fragment>
+					<h1>{count}</h1>
+					<button
+						onClick={() => {
+							increment();
+						}}>
+						Increment
+					</button>
 
-				{/* Adding decrement button */}
-				<button
-					onClick={() => {
-						decrement();
-					}}>
-					decrement
-				</button>
-				<TextInput />
-			</React.Fragment>
+					{/* Adding decrement button */}
+					<button
+						onClick={() => {
+							decrement();
+						}}>
+						Decrement
+					</button>
+					<TextInput />
+				</React.Fragment>
+			</div>
 		</div>
 	);
 };
