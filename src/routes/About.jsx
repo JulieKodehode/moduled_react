@@ -10,3 +10,5 @@ const About = () => {
 export default About;
 
 // Changed from div to main
+
+// No longer used.

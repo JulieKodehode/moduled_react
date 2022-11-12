@@ -10,3 +10,5 @@ const Contact = () => {
 export default Contact;
 
 // Changed from div to main
+
+// No longer used.
