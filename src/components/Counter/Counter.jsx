@@ -4,7 +4,7 @@ import React, { useState } from "react";
 import TextInput from "./TextInput";
 
 // The function is what react is looking for to compare and update using states, so anything above or under the function it self wont be re-run.
-console.log("I will only run once");
+// console.log("I will only run once");
 // You could declare a variable outside and call it inside the function
 
 const Counter = () => {
@@ -17,13 +17,25 @@ const Counter = () => {
 	// console.log(someState);
 
 	// Using handleClick because what does it do? Handle a click.
-	const handleClick = () => {
+	// Changing from handleClick to increment and decrement.
+	const increment = () => {
 		// setCount(count + 1);
 		// Considered bad practice to just do count + 1 because you might update count between state updates, so to avoid this we are passing it a function which is given the oldCount + 1 instead
 		// Using the old state and modifying that accordingly
 		// This is a callback function(?)
 		setCount((oldCount) => {
 			return oldCount + 1;
+		});
+	};
+
+	// Adding a decrement handle
+	const decrement = () => {
+		// setCount(count + 1);
+		// Considered bad practice to just do count + 1 because you might update count between state updates, so to avoid this we are passing it a function which is given the oldCount + 1 instead
+		// Using the old state and modifying that accordingly
+		// This is a callback function(?)
+		setCount((oldCount) => {
+			return oldCount - 1;
 		});
 	};
 
@@ -36,9 +48,17 @@ const Counter = () => {
 				<h1>{count}</h1>
 				<button
 					onClick={() => {
-						handleClick();
+						increment();
 					}}>
 					Increment
+				</button>
+
+				{/* Adding decrement button */}
+				<button
+					onClick={() => {
+						decrement();
+					}}>
+					decrement
 				</button>
 				<TextInput />
 			</React.Fragment>
