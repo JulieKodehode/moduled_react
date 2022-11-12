@@ -60,7 +60,7 @@ const Home = () => {
 				{/* Using data */}
 				<Main />
 
-				{/* State */}
+				{/* useState */}
 				<Counter />
 
 				{/* useEffect */}
