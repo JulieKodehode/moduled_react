@@ -3,10 +3,7 @@ import { useState } from "react";
 // Child is TextInput's child
 import Child from "./Child";
 
-const TextInput = (props) => {
-	// Destructuring the props
-	const { data } = props;
-
+const TextInput = () => {
 	const [textInput, setTextInput] = useState("");
 
 	// We need to pass an event for something to happen
@@ -25,7 +22,8 @@ const TextInput = (props) => {
 
 			<h3>{textInput}</h3>
 
-			<Child data={data} />
+			{/* Why data=data */}
+			<Child />
 		</div>
 	);
 };
