@@ -4,7 +4,7 @@
 import logo from "../logo.svg";
 
 // Global css
-// import "../App.css";
+import "../App.css";
 // import "../index.css";
 
 // Import from component/Header.jsx
@@ -22,9 +22,13 @@ import CardsUsingProps from "../components/CardsUsingProps/CardsUsingProps.jsx";
 // Import from ./components/main.jsx
 import Main from "../components/Main";
 
+// Removed in benefit for own route
 // Import from ./Counter/Counter
 // import Counter from "./Counter";
 
+// Removed in benefit for own route
+// Import from ./CatFacts/CatFact
+// import CatFacts from "./CatFacts/CatFact";
 // Import from ./CatFacts/CatFact
 // import CatFacts from "./CatFact";
 
