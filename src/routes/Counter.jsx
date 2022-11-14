@@ -10,6 +10,10 @@ import CounterTitle from "./Counter/CounterTitle";
 // TextInput is Counter's child
 import TextInput from "./Counter/TextInput";
 
+// Header/Footer
+import Header from "../components/Header";
+import Sign from "../components/Sign";
+
 const Counter = () => {
 	// Syntax for useState: state is the property(prop), setState is the function we are going to use to update the state, useState is what we are using to track the state in a function component (in this case a state from old to new)
 
@@ -40,6 +44,7 @@ const Counter = () => {
 		// <div className="CounterStyles">
 
 		<div className="App | App-header">
+			<Header />
 			{/* This is the background and the centering*/}
 			{/* Div className is background and center */}
 
@@ -72,6 +77,7 @@ const Counter = () => {
 				<TextInput />
 				{/* </React.Fragment> */}
 			</div>
+			<Sign />
 		</div>
 	);
 };
