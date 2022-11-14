@@ -19,7 +19,7 @@ const TextInput = () => {
 		<div className={style.TextInput}>
 			{/* Using useState to track for changes in the setTextInput to state the value of the textInput*/}
 			<input
-				placeholder="type something here"
+				placeholder="Type something here"
 				type="text"
 				onChange={(event) => handleChange(event)}
 				value={textInput}
