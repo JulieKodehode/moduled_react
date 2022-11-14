@@ -18,7 +18,12 @@ const TextInput = () => {
 	return (
 		<div className={style.TextInput}>
 			{/* Using useState to track for changes in the setTextInput to state the value of the textInput*/}
-			<input type="text" onChange={(event) => handleChange(event)} value={textInput} />
+			<input
+				placeholder="type something here"
+				type="text"
+				onChange={(event) => handleChange(event)}
+				value={textInput}
+			/>
 			<h4 className={style.TextInputspace}>{textInput}</h4>
 		</div>
 	);
