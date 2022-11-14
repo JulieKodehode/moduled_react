@@ -26,4 +26,4 @@ const TextInput = () => {
 
 export default TextInput;
 
-/* Ideally I would like to make the text "disappear" from the input when its displayed, and save the display with a storage to make it into some sort of todo-list, but I will not do that in this task. As using the useState was the main goal, and it is used and displayed now. */
+/* Ideally I would like to have this TextInput in its own page again, and make something more of it. Like a todo-list of some sort. But as using the useState was the main goal, I wanted to show a way to use useState displaying a string to show that I have understood the concept of using it. */
