@@ -4,7 +4,7 @@
 import logo from "../logo.svg";
 
 // Global css
-// import "../App.css";
+import "../App.css";
 // import "../index.css";
 
 // Import from component/Header.jsx
@@ -22,11 +22,13 @@ import CardsUsingProps from "../components/CardsUsingProps/CardsUsingProps.jsx";
 // Import from ./components/main.jsx
 import Main from "../components/Main";
 
+// Removed in benefit for own route
 // Import from ./Counter/Counter
 // import Counter from "./Counter";
 
+// Removed in benefit for own route
 // Import from ./CatFacts/CatFact
-// import CatFacts from "./CatFact";
+// import CatFacts from "./CatFacts/CatFact";
 
 // Only return one parent(div in this case), but as many children as you want. The div is sort of like body in html(?) and then the header is the section to be displayed on page (?)
 // Header is a custom component. And we can add a title property(props) to reduce open code(?) and display properties instead of lines of text.

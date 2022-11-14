@@ -20,3 +20,5 @@ alternatively:
 - A picture of app.js
 - A picture of the file containing the useState logic
 - A picture of the React application working in the browser
+
+## Located in routes, mentioned in NavBar and App.
