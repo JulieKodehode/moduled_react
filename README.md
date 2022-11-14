@@ -12,6 +12,10 @@
 
 [novemberEight](https://github.com/JulieKodehode/moduleD_react/tree/feat/novemberEight) - learning to import static data, making a data folder for data to be exported and imported
 
+[novemberEleventh](https://github.com/JulieKodehode/moduled_react/tree/feat/novemberEleventh) - learning about state, setState and useState
+
+[novemberTwelvft](https://github.com/JulieKodehode/moduled_react/tree/novemberTwelfth) - learning useEffect (to be continued)
+
 ## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
