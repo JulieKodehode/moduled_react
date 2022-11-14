@@ -11,7 +11,7 @@ const Header = (props) => {
 	// console.log(props); // object with key:value(title:MyTitle)
 
 	// // regular html
-	return <h1>Julie's React course page</h1>;
+	return <h1>React course page</h1>;
 
 	// // {} write js inside html tag
 	// return <h1>{title}</h1>;

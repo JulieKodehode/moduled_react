@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-// Child is TextInput's child
-import Child from "./Child";
+// Styling
+import style from "./CounterStyles.module.css";
 
 const TextInput = () => {
 	const [textInput, setTextInput] = useState("");
@@ -16,16 +16,14 @@ const TextInput = () => {
 	};
 
 	return (
-		<div>
-			{/* Using the state textInput to set the value */}
+		<div className={style.TextInput}>
+			{/* Using useState to track for changes in the setTextInput to state the value of the textInput*/}
 			<input type="text" onChange={(event) => handleChange(event)} value={textInput} />
-
-			<h3>{textInput}</h3>
-
-			{/* Why data=data */}
-			<Child />
+			<h4 className={style.TextInputspace}>{textInput}</h4>
 		</div>
 	);
 };
 
 export default TextInput;
+
+/* Ideally I would like to make the text "disappear" from the input when its displayed, and save the display with a storage to make it into some sort of todo-list, but I will not do that in this task. As using the useState was the main goal, and it is used and displayed now. */

@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-import "../index.css";
 
 // Styling
-// import CounterStyles from "./Counter/CounterStyles";
+import style from "./Counter/CounterStyles.module.css";
 
 // CounterTitle
 import CounterTitle from "./Counter/CounterTitle";
 
-// TextInput is Counter's child
+// TextInput
 import TextInput from "./Counter/TextInput";
 
 // Header/Footer
@@ -17,7 +16,7 @@ import Sign from "../components/Sign";
 const Counter = () => {
 	// Syntax for useState: state is the property(prop), setState is the function we are going to use to update the state, useState is what we are using to track the state in a function component (in this case a state from old to new)
 
-	// Changing from state to count for more meaningful names
+	// Changing from state to count for more meaningf	ul names
 	const [count, setCount] = useState(0);
 
 	// Using handleClick because what does it do? Handle a click. Generic name.
@@ -40,25 +39,26 @@ const Counter = () => {
 	};
 
 	return (
-		// React.Fragment is the "div", using react.fragment instead of div will not update the dom whereas div will add another div html element to the dom.
-		// <div className="CounterStyles">
+		// <React.Fragment>
+		// React.Fragment is the parent inside return, using react.fragment instead of div will not update the dom whereas div will add another element to the dom. Since react.fragment is not an element, it cant hold a id/class or get styled.
+		// </React.Fragment>
 
 		<div className="App | App-header">
+			{/* This is the background and the centering - global css*/}
 			<Header />
-			{/* This is the background and the centering*/}
-			{/* Div className is background and center */}
 
-			<div style={{ backgroundColor: "green" }}>
+			<div className={style.CounterStyles}>
 				{/* Styling the "box" */}
-				{/* <React.Fragment> */}
+
 				{/* A title and description of this side */}
 				<CounterTitle />
 
-				{/* A h1 containing the count, count is between newCount and oldCount and is what useState tracks when buttons activate(?) */}
+				{/* A h1 containing the count, count is between newCount and oldCount and is what useState tracks when buttons activate are clicked to increment or decrement the count value */}
 				<h1>{count}</h1>
 
 				{/* A button with increment */}
 				<button
+					className={style.Increment}
 					onClick={() => {
 						increment();
 					}}>
@@ -67,6 +67,7 @@ const Counter = () => {
 
 				{/* A button with decrement */}
 				<button
+					className={style.Decrement}
 					onClick={() => {
 						decrement();
 					}}>
@@ -75,8 +76,8 @@ const Counter = () => {
 
 				{/* A text input that will be displayed under with the text inputted */}
 				<TextInput />
-				{/* </React.Fragment> */}
 			</div>
+
 			<Sign />
 		</div>
 	);
