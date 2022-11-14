@@ -6,7 +6,7 @@ import Home from "./routes/Home";
 
 // import About from "./routes/About";
 import Counter from "./routes/Counter";
-// import Contact from "./routes/Contact";
+import Contact from "./routes/Contact";
 
 const App = () => {
 	return (
@@ -14,7 +14,7 @@ const App = () => {
 			<Route path="/" element={<Home />} />
 			<Route path="Home" element={<Home />} />
 			<Route path="Counter" element={<Counter />} />
-			{/* <Route path="Contact" element={<Contact />} /> */}
+			<Route path="Contact" element={<Contact />} />
 			<Route
 				path="*"
 				element={
