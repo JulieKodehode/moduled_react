@@ -1,4 +1,4 @@
-// You belong in data
+// You belong in data, but will stay here.
 const arrayOfData = [
 	{ id: "one", text: "Some string here" },
 	{ id: "two", text: "Another string here" },
@@ -6,7 +6,7 @@ const arrayOfData = [
 	{ id: "four,", text: "A forth string" },
 ];
 
-const generateCards = (element, index) => {
+const GenerateCards = (element, index) => {
 	const { id, text } = element;
 	// console.log({element: element, index: index})
 	// Shorthand since it have the same names for both element and index
@@ -26,7 +26,7 @@ const Card = (props) => {
 
 	return (
 		<div>
-			<h3>{title}</h3>
+			<p>{title}</p>
 		</div>
 	);
 };
@@ -45,15 +45,14 @@ function App() {
 			})} */}
 
 			{/* We made a map function earlier so we can just refer back to it here as a callback */}
-			{arrayOfData.map(generateCards)}
+			{arrayOfData.map(GenerateCards)}
 		</div>
 	);
 }
 
+export default App;
 // .map = returns new elements changed from the original
 // .forEach = not modified, just taking each element and return it
-
-// PLACE this in the main, with the cat thing.
 
 //
 //
@@ -61,26 +60,26 @@ function App() {
 
 // Mapping a new mapped map to first map out decks of cards and then map out the containing cards in each deck?
 
-const firstHand = [
-	{ id: "one", text: "Some string here" },
-	{ id: "two", text: "Another string here" },
-	{ id: "three", text: "Third string here" },
-	{ id: "four,", text: "A forth string" },
-];
+// const firstHand = [
+// 	{ id: "one", text: "Some string here" },
+// 	{ id: "two", text: "Another string here" },
+// 	{ id: "three", text: "Third string here" },
+// 	{ id: "four,", text: "A forth string" },
+// ];
 
-const secondHand = [
-	{ id: "five", text: "Set 2: Some string here" },
-	{ id: "six", text: "Set 2: Another string here" },
-	{ id: "seven", text: "Set 2: Third string here" },
-	{ id: "eight,", text: "Set 2: A forth string" },
-];
+// const secondHand = [
+// 	{ id: "five", text: "Set 2: Some string here" },
+// 	{ id: "six", text: "Set 2: Another string here" },
+// 	{ id: "seven", text: "Set 2: Third string here" },
+// 	{ id: "eight,", text: "Set 2: A forth string" },
+// ];
 
-const listOfLists = [firstHand, secondHand];
+// const listOfLists = [firstHand, secondHand];
 
-const generate52Cards = (list) => {
-	return list.map((element, index) => {
-		const { text, id } = element;
+// const generate52Cards = (list) => {
+// 	return list.map((element, index) => {
+// 		const { text, id } = element;
 
-		return <Card key={index} title={text} />;
-	});
-};
+// 		return <Card key={index} title={text} />;
+// 	});
+// };
