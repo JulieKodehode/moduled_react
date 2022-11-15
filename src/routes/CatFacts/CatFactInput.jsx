@@ -46,17 +46,17 @@ const CatFactInput = () => {
 
 	return (
 		<div>
-			<ul>
-				{/* Checking if the statement is true, and ending if its false */}
-				{/* Taking the array and generating a new array using the map method and giving it a new return */}
-				{/* <li>
-					{fetchedData &&
-						fetchedData.map((element) => {
-							return <p>{element.fact}</p>;
-						})}
-				</li> */}
+			{/* Checking if the statement is true, and ending if its false */}
+			{/* Taking the array and generating a new array using the map method and giving it a new return */}
+			{/* <p>
+				{fetchedData &&
+					fetchedData.map((element) => {
+						return <p>{element.fact}</p>;
+					})}
+			</p> */}
 
-				{/* Getting fact nr1[0] instead of runnng map and getting every fact */}
+			{/* Getting fact nr1[0] instead of running map and getting every fact */}
+			<ul>
 				<li>{fetchedData && fetchedData[1].fact}</li>
 			</ul>
 		</div>
