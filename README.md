@@ -14,7 +14,9 @@
 
 [novemberEleventh](https://github.com/JulieKodehode/moduled_react/tree/feat/novemberEleventh) - learning about state, setState and useState
 
-[novemberTwelvft](https://github.com/JulieKodehode/moduled_react/tree/novemberTwelfth) - learning useEffect (to be continued)
+[novemberTwelfth](https://github.com/JulieKodehode/moduled_react/tree/novemberTwelfth) - learning useEffect (to be continued)
+
+[novemberFourteenth](https://github.com/JulieKodehode/moduled_react/tree/feat/novemberFourteenth) - going trough .map()
 
 ## Getting Started with Create React App
 
