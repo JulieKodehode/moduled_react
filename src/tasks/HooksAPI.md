@@ -31,3 +31,5 @@ Repetition of JavaScript conditionals:
 
 - "condition && code-to-run-if-condition-is-true"
 - There is also switch statements for multiple choices
+
+## Located in routes, mentioned in NavBar and App.
