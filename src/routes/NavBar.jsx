@@ -1,5 +1,3 @@
-// NO LONGER USED.
-
 // // Routes is (?), Route is pages(?) No more <a href=""> NavLink and Link, navLink checks if it corresponds with a navbar(?) and Link is replacing anchor.
 import { NavLink, Outlet } from "react-router-dom";
 
