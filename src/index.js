@@ -16,11 +16,6 @@ import NavBar from "./routes/NavBar";
 // Funnies
 import reportWebVitals from "./tests/reportWebVitals";
 
-// Pages from pages
-// import Landing from "./routes/Landing";
-// import About from "./routes/About";
-// import Contact from "./routes/Contact";
-
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
 	<React.StrictMode>

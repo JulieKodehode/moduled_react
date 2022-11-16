@@ -6,7 +6,7 @@ import Home from "./routes/Home";
 
 // import About from "./routes/About";
 import Counter from "./routes/Counter";
-// import CatFacts from "./routes/CatFact";
+import CatFacts from "./routes/CatFact";
 
 const App = () => {
 	return (
