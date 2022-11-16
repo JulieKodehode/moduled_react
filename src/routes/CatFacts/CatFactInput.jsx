@@ -1,5 +1,8 @@
 import { useState, useEffect } from "react";
 
+// Styles
+import style from "./CatFactStyles.module.css";
+
 // You can also have the async function outside of the useEffect, and just call the function.
 async function fetchData(callback) {
 	const response = await fetch("https://catfact.ninja/facts");
@@ -57,7 +60,7 @@ const CatFactInput = () => {
 
 			{/* Getting fact nr1[0] instead of running map and getting every fact */}
 			<ul>
-				<li>{fetchedData && fetchedData[1].fact}</li>
+				<li className={style.fetchedData}>{fetchedData && fetchedData[1].fact}</li>
 			</ul>
 		</div>
 	);
