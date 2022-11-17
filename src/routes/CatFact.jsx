@@ -16,7 +16,7 @@ const CatFacts = () => {
 			<div className={style.CatFact}>
 				<h2>Here are some fun cat facts:</h2>
 				<CatFactInput />
-				{/* Making an option to reload the page to get a new fact? */}
+				{/* Making an option to reload the page to get a new fact instead of getting all facts at once? */}
 			</div>
 			<Sign />
 		</div>

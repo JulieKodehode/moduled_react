@@ -5,8 +5,13 @@
 
 .fetchedData {
 	width: 500px;
+	text-align: left;
 }
 
 /* ul {
 	list-style-type: none;
 } */
+
+li {
+	padding: 10px;
+}
