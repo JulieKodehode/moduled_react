@@ -45,12 +45,14 @@ const CatFactInput = () => {
 			<ul className={style.fetchedData}>
 				{/* Using conditionals(!CHECK!) to check if the statement is true and then run the map function return */}
 				{fetchedData &&
-					fetchedData.map((element /* element could be anything, just a name */) => {
+					fetchedData.map((element, fact /* element could be anything, just a name */) => {
 						// console.log(element);
 						// Taking the array and generating a new array using the map method and giving it a new return
 						// .fact because thats the object key I want to extract(?)
 						// return <li>{element.fact}</li>;
-						return <li key={element.fact}>{element.fact}</li>;
+
+						// Error:Each child in a list should have a unique "key" prop. Key is fact(?)
+						return <li key={fact}>{element.fact}</li>;
 					})}
 			</ul>
 

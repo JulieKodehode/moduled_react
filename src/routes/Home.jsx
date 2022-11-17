@@ -40,7 +40,7 @@ const Home = () => {
 				<img src={logo} className="App-logo" alt="logo" />
 
 				{/* Adding CSS into a certain tag with global css from src/App.css */}
-				<h3 class="another-css-class-name"> My second header </h3>
+				<h3 className="another-css-class-name"> My second header </h3>
 
 				{/* Not yet modified, hardcode code */}
 				<p> My Paragraph </p>
