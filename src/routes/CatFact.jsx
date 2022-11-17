@@ -14,7 +14,7 @@ const CatFacts = () => {
 			{/* Div className is background and center */}
 			<Header />
 			<div className={style.CatFact}>
-				<h2>Here is a cat fact:</h2>
+				<h2>Here are some fun cat facts:</h2>
 				<CatFactInput />
 				{/* Making an option to reload the page to get a new fact? */}
 			</div>
