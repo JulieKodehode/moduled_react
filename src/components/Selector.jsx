@@ -4,6 +4,8 @@ import MyContext from "../Context/MyContext";
 
 const Selector = () => {
 	// const { state, setState } = props;
+
+	// a variable taking a function
 	const stateObject = useContext(MyContext);
 
 	// HandleChange is a common way to name the onChange handleClick
