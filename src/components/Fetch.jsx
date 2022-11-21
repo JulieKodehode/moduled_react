@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useFetcher } from "react-router-dom";
+// import { useFetcher } from "react-router-dom";
 
 const FetchSample = () => {
 	const [data, setData] = useState(null);
@@ -19,11 +19,11 @@ const FetchSample = () => {
 	// Option B - ES6 style
 	useEffect(() => {
 		async function getData() {
-			const response = await fetch("url");
-			const data = response.json();
+			const response = await fetch("https://pokeapi.co/api/v2/pokemon/ditto");
+			const data = await response.json();
 
-			console.log(data);
-			setData(data);
+			console.log(data.name);
+			setData(data.name);
 		}
 
 		getData();
@@ -35,7 +35,7 @@ const FetchSample = () => {
 
 	return (
 		<div>
-			<h1>{data && data.name}</h1>
+			<h1>{data}</h1>
 		</div>
 	);
 };
