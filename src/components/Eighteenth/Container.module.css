@@ -1,0 +1,16 @@
+.Container {
+	border: 1px solid black;
+	border-radius: 10px;
+}
+
+/* 
+CSS VARIABLES:
+:root {
+   --color-primary: orange;
+   --border-radius-small: 10px;
+   
+   * {
+      background-color: --color-primary;
+      border-radius: --border-radius-small;       
+      
+*/

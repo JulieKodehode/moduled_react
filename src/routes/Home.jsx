@@ -22,6 +22,13 @@ import CardsUsingProps from "../components/CardsUsingProps/CardsUsingProps.jsx";
 // Import from ./components/main.jsx
 import Main from "../components/Main";
 
+// Import Button & Container from ..Eighteenth
+import Button from "../components/Eighteenth/Button";
+import Container from "../components/Eighteenth/Container";
+
+//
+import FetchSample from "../components/Fetch";
+
 // Only return one parent(div in this case), but as many children as you want. The div is sort of like body in html(?) and then the header is the section to be displayed on page (?)
 // Header is a custom component. And we can add a title property(props) to reduce open code(?) and display properties instead of lines of text.
 // READ more on properties
@@ -54,6 +61,13 @@ const Home = () => {
 
 				{/* Using data */}
 				<Main />
+
+				{/* More on styling */}
+				<Container />
+				<Button />
+
+				{/* Fetch tryout */}
+				<FetchSample />
 
 				{/* Using the Sign Component */}
 				<Sign />
