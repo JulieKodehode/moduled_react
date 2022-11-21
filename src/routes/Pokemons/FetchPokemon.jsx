@@ -1,23 +1,24 @@
 import { useState, useEffect } from "react";
 
-// Failed to fetch? Bitch please.
-// Some kind of CORS something fail
-async function getPokeApi(callback) {
-	const response = await fetch("https://pokeapi.co/"); /* Modify url */
+async function FetchPokemon(callback) {
+	const response = await fetch("https://pokeapi.co/api/v2/pokemon/ditto"); /* Modify url */
 	// console.log(response);
 	const data = await response.json();
 	// console.log(data);
+	// console.log(data.name);
 
-	callback(data.data);
+	callback(data.name);
 }
 
 console.log("U WOKRING BRO??");
 
-const FetchPokemon = (data) => {
-	const { gotPokeApi, setPokeApi } = useState(null);
+const GetPokemon = () => {
+	const [data, setData] = useState(null);
 
 	useEffect(() => {
-		getPokeApi(setPokeApi);
+		console.log("useEffect was run");
+
+		FetchPokemon(setData);
 		// console.log(getPokeApi); // function
 		// console.log(setPokeApi); // unidentified
 	}, []);
@@ -25,6 +26,17 @@ const FetchPokemon = (data) => {
 	return (
 		<div>
 			<p>something</p>
+			<>
+				{data &&
+					data.map(() => {
+						return (
+							<div>
+								<h1 key="name">{data.name}</h1>
+								<img key="sprites.default_front">{data.sprites.default_front}</img>
+							</div>
+						);
+					})}
+			</>
 		</div>
 	);
 };
