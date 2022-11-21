@@ -2,9 +2,9 @@
 
 // Import react-route-dom
 import { Routes, Route } from "react-router-dom";
-import Home from "./routes/Home";
 
-// import About from "./routes/About";
+// Import pages from routes
+import Home from "./routes/Home";
 import Counter from "./routes/Counter";
 import CatFacts from "./routes/CatFact";
 import Pokemons from "./routes/Pokemons";
