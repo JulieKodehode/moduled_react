@@ -2,11 +2,12 @@
 
 // Import react-route-dom
 import { Routes, Route } from "react-router-dom";
-import Home from "./routes/Home";
 
-// import About from "./routes/About";
+// Import pages from routes
+import Home from "./routes/Home";
 import Counter from "./routes/Counter";
 import CatFacts from "./routes/CatFact";
+import Pokemons from "./routes/Pokemons";
 
 const App = () => {
 	return (
@@ -15,6 +16,7 @@ const App = () => {
 			<Route path="Home" element={<Home />} />
 			<Route path="Counter" element={<Counter />} />
 			<Route path="CatFact" element={<CatFacts />} />
+			<Route path="Pokemons" element={<Pokemons />} />
 			<Route
 				path="*"
 				element={
