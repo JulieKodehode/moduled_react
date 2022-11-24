@@ -64,18 +64,19 @@ const Home = () => {
 				{/* Using data */}
 				<Main />
 
+				{/* TRIAL RUNS: NOT YET BEEN OPTIMIZED */}
 				{/* More on styling */}
-				<Container />
-				<Button />
+				{/* <Container />
+				<Button /> */}
 
 				{/* Fetch tryout */}
-				<FetchSample />
+				{/* <FetchSample /> */}
+
+				{/* Context tryout */}
+				{/* <App /> */}
 
 				{/* Using the Sign Component */}
 				<Sign />
-
-				{/* Context tryout */}
-				<App />
 			</header>
 		</div>
 	);

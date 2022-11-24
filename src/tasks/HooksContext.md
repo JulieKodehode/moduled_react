@@ -24,4 +24,6 @@ Picture of code showing how you have used React.useContext.
 
 Example API: https://pokeapi.co/
 
-# Located in
+# Located in routes and contexts, mentioned in NavBar and App.
+
+(Clean up in file structure will come.)
