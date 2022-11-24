@@ -1,16 +1,5 @@
 import { useState, useEffect } from "react";
 
-// Bitch ain't working outside
-// async function FetchPokemon(callback) {
-// 	const response = await fetch("https://pokeapi.co/api/v2/pokemon/ditto"); /* Modify url */
-// 	// console.log(response);
-// 	const data = await response.json();
-// 	// console.log(data);
-// 	// console.log(data.name);
-
-// 	callback(data.name);
-// }
-
 console.log("U WOKRING BRO??");
 
 const GetPokemon = () => {
@@ -19,11 +8,13 @@ const GetPokemon = () => {
 	useEffect(() => {
 		async function getData() {
 			const response = await fetch("https://pokeapi.co/api/v2/pokemon/ditto");
+			console.log(response);
 			const data = await response.json();
+			console.log(data);
 
 			// console.log(data.name);
 			// console.error(data);
-			setData(data.name);
+			setData(data.name, data.sprites.default_front);
 		}
 
 		getData();
@@ -38,6 +29,7 @@ const GetPokemon = () => {
 		<div>
 			{/* <p>something</p> */}
 			<h1>{data}</h1>
+			<img src={data.sprites.front_default} />
 		</div>
 	);
 };
